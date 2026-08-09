@@ -156,17 +156,17 @@ body{font-family:'Noto Sans KR',-apple-system,sans-serif;background:#08090f;colo
   <div class="hdr-logo">kimju.zip</div>
   <div class="hdr-divline"></div>
   <h1>디자인 예시 갤러리</h1>
-  <p>PPT · 카드뉴스 · 각 137가지 · 클릭하면 레이아웃 프롬프트 확인</p>
+  <p>웹슬라이드 · 카드뉴스 · 각 147가지 · 클릭하면 레이아웃 프롬프트 확인</p>
   <div class="hdr-badges">
-    <span class="hdr-badge">🖼 PPT 137</span>
-    <span class="hdr-badge">📱 카드뉴스 137</span>
+    <span class="hdr-badge">🖼 웹슬라이드 147</span>
+    <span class="hdr-badge">📱 카드뉴스 147</span>
     <span class="hdr-badge">📋 프롬프트 복사</span>
   </div>
 </div>
 <div class="hdiv"></div>
 <div class="tabs">
-  <button class="tb on" data-t="p">PPT 슬라이드 — 137가지</button>
-  <button class="tb" data-t="c">카드뉴스 — 137가지</button>
+  <button class="tb on" data-t="p">웹슬라이드 — 147가지</button>
+  <button class="tb" data-t="c">카드뉴스 — 147가지</button>
 </div>
 <div id="tp" class="tc on"><div class="gl" id="pg"></div></div>
 <div id="tc" class="tc"><div class="gl" id="cg"></div></div>
@@ -3876,7 +3876,7 @@ ppt.push(
 <div style="padding:${f(4)}">
 <div style="padding:${f(5)} ${f(10)};background:rgba(255,100,50,.2);border-radius:${f(4)};display:flex;align-items:center;gap:${f(7)};margin-bottom:${f(2)}">
 <div style="width:${f(14)};height:${f(14)};border-radius:${f(3)};background:#ff6432;display:flex;align-items:center;justify-content:center"><div style="font-size:${f(7)};color:#fff">✦</div></div>
-<div style="font-size:${f(6)};color:#fff;font-weight:700">PPT 디자인 갤러리</div>
+<div style="font-size:${f(6)};color:#fff;font-weight:700">웹슬라이드 디자인 갤러리</div>
 </div>
 <div style="padding:${f(5)} ${f(10)};display:flex;align-items:center;gap:${f(7)};margin-bottom:${f(2)}">
 <div style="width:${f(14)};height:${f(14)};border-radius:${f(3)};background:rgba(255,255,255,.1)"></div>
@@ -4183,7 +4183,7 @@ card.push(
 <div style="background:rgba(255,255,255,.04);border-radius:${f(5)};border:1px solid rgba(255,255,255,.07);padding:${f(7)} ${f(10)};flex:1">
 <div style="font-size:${f(5)};color:#27c93f;font-family:monospace;margin-bottom:${f(4)}">✓ designs added</div>
 <div style="font-size:${f(5)};color:#f5a623;font-family:monospace;margin-bottom:${f(4)}">~ prompts ok</div>
-<div style="font-size:${f(5)};color:rgba(255,255,255,.35);font-family:monospace;margin-bottom:${f(4)}">137 styles total</div>
+<div style="font-size:${f(5)};color:rgba(255,255,255,.35);font-family:monospace;margin-bottom:${f(4)}">147 styles total</div>
 <div style="font-size:${f(5)};color:rgba(255,255,255,.2);font-family:monospace">ready to ship 🚀</div>
 </div>
 <div style="display:flex;gap:${f(5)};align-items:center">
@@ -4520,6 +4520,316 @@ card.push(
 </div>`}},
 );
 
+/* ── 트렌드·필수 확장 (138~147) — 벤토·아젠다·비교·차트·CTA ── */
+ppt.push(
+{id:138,name:"벤토 그리드",tag:"트렌드·레이아웃",render(W,H,s){const f=n=>fx(n,s),p=n=>rx(n,s);return`
+<div style="position:absolute;inset:0;background:#f4f4f7"></div>
+<div style="position:absolute;top:${f(14)};left:${f(14)};right:${f(14)};bottom:${f(14)};display:grid;grid-template-columns:1.35fr 1fr 1fr;grid-template-rows:1fr 1fr;gap:${f(8)}">
+<div style="grid-row:1/3;background:#17181c;border-radius:${f(11)};padding:${f(12)};display:flex;flex-direction:column;justify-content:space-between">
+<div style="font-size:${f(4.5)};color:rgba(255,255,255,.4);letter-spacing:2.5px;font-weight:700">BENTO</div>
+<div><div style="font-size:${f(14)};font-weight:900;color:#fff;line-height:1.1;margin-bottom:${f(6)}">벤토<br>그리드</div><div style="width:${f(24)};height:${f(2.5)};background:linear-gradient(90deg,#a78bfa,#6ee7b7);border-radius:2px"></div></div>
+</div>
+<div style="background:#e6e1fb;border-radius:${f(11)};padding:${f(10)};display:flex;flex-direction:column;justify-content:space-between"><div style="font-size:${f(12)};font-weight:900;color:#5b4a8a;line-height:1">24</div><div style="font-size:${f(4.5)};color:rgba(91,74,138,.6);font-weight:700">프로젝트</div></div>
+<div style="background:#d8f3e3;border-radius:${f(11)};padding:${f(10)};display:flex;flex-direction:column;justify-content:space-between"><div style="font-size:${f(12)};font-weight:900;color:#1f6b4a;line-height:1">89%</div><div style="font-size:${f(4.5)};color:rgba(31,107,74,.6);font-weight:700">만족도</div></div>
+<div style="grid-column:2/4;background:#d7ecfd;border-radius:${f(11)};padding:${f(10)};display:flex;flex-direction:column;justify-content:space-between">
+<div style="font-size:${f(5.5)};font-weight:800;color:#1d5a8a">이번 주 하이라이트</div>
+<div style="display:flex;gap:${f(4)};align-items:flex-end;height:${f(22)}"><div style="flex:1;height:45%;background:rgba(29,90,138,.35);border-radius:2px"></div><div style="flex:1;height:70%;background:rgba(29,90,138,.5);border-radius:2px"></div><div style="flex:1;height:55%;background:rgba(29,90,138,.35);border-radius:2px"></div><div style="flex:1;height:90%;background:#1d5a8a;border-radius:2px"></div><div style="flex:1;height:62%;background:rgba(29,90,138,.35);border-radius:2px"></div></div>
+</div>
+</div>`}},
+{id:139,name:"목차 아젠다",tag:"필수·목차",render(W,H,s){const f=n=>fx(n,s),p=n=>rx(n,s);return`
+<div style="position:absolute;inset:0;background:#101322"></div>
+<div style="position:absolute;left:${f(26)};top:${f(30)};width:${f(110)}">
+<div style="font-size:${f(5)};color:#f59e0b;letter-spacing:3px;text-transform:uppercase;margin-bottom:${f(8)};font-weight:700">AGENDA</div>
+<div style="font-size:${f(22)};font-weight:900;color:#fff;line-height:1.05">목차</div>
+<div style="width:${f(26)};height:${f(2.5)};background:#f59e0b;border-radius:2px;margin-top:${f(10)}"></div>
+</div>
+<div style="position:absolute;left:${f(150)};right:${f(26)};top:${f(24)};bottom:${f(24)};display:flex;flex-direction:column;justify-content:space-between">
+<div style="display:flex;align-items:center;gap:${f(9)};border-bottom:1px solid rgba(255,255,255,.08);padding-bottom:${f(6)}"><div style="font-size:${f(9)};font-weight:900;color:#f59e0b">01</div><div style="flex:1"><div style="font-size:${f(6.5)};font-weight:800;color:#fff;margin-bottom:${f(2.5)}">추진 배경</div><div style="height:${f(2.5)};width:55%;background:rgba(255,255,255,.14);border-radius:2px"></div></div></div>
+<div style="display:flex;align-items:center;gap:${f(9)};border-bottom:1px solid rgba(255,255,255,.08);padding-bottom:${f(6)}"><div style="font-size:${f(9)};font-weight:900;color:rgba(245,158,11,.65)">02</div><div style="flex:1"><div style="font-size:${f(6.5)};font-weight:800;color:rgba(255,255,255,.85);margin-bottom:${f(2.5)}">현황 분석</div><div style="height:${f(2.5)};width:48%;background:rgba(255,255,255,.14);border-radius:2px"></div></div></div>
+<div style="display:flex;align-items:center;gap:${f(9)};border-bottom:1px solid rgba(255,255,255,.08);padding-bottom:${f(6)}"><div style="font-size:${f(9)};font-weight:900;color:rgba(245,158,11,.45)">03</div><div style="flex:1"><div style="font-size:${f(6.5)};font-weight:800;color:rgba(255,255,255,.7);margin-bottom:${f(2.5)}">실행 계획</div><div style="height:${f(2.5)};width:60%;background:rgba(255,255,255,.14);border-radius:2px"></div></div></div>
+<div style="display:flex;align-items:center;gap:${f(9)}"><div style="font-size:${f(9)};font-weight:900;color:rgba(245,158,11,.3)">04</div><div style="flex:1"><div style="font-size:${f(6.5)};font-weight:800;color:rgba(255,255,255,.55);margin-bottom:${f(2.5)}">기대 효과</div><div style="height:${f(2.5)};width:42%;background:rgba(255,255,255,.14);border-radius:2px"></div></div></div>
+</div>`}},
+{id:140,name:"VS 비교 슬라이드",tag:"필수·비교",render(W,H,s){const f=n=>fx(n,s),p=n=>rx(n,s);return`
+<div style="position:absolute;inset:0;background:#2563eb"></div>
+<div style="position:absolute;top:0;bottom:0;right:0;width:50%;background:#e11d48"></div>
+<div style="position:absolute;left:0;top:${f(30)};width:50%;padding:0 ${f(24)};box-sizing:border-box">
+<div style="display:inline-block;font-size:${f(4.5)};font-weight:800;color:#fff;background:rgba(255,255,255,.18);border-radius:100px;padding:${f(2.5)} ${f(8)};letter-spacing:1px;margin-bottom:${f(8)}">A안</div>
+<div style="font-size:${f(13)};font-weight:900;color:#fff;line-height:1.1;margin-bottom:${f(9)}">기존<br>방식</div>
+<div style="height:${f(3)};width:70%;background:rgba(255,255,255,.35);border-radius:2px;margin-bottom:${f(5)}"></div>
+<div style="height:${f(3)};width:52%;background:rgba(255,255,255,.22);border-radius:2px;margin-bottom:${f(5)}"></div>
+<div style="height:${f(3)};width:60%;background:rgba(255,255,255,.22);border-radius:2px"></div>
+</div>
+<div style="position:absolute;right:0;top:${f(30)};width:50%;padding:0 ${f(24)};box-sizing:border-box;text-align:right">
+<div style="display:inline-block;font-size:${f(4.5)};font-weight:800;color:#fff;background:rgba(255,255,255,.18);border-radius:100px;padding:${f(2.5)} ${f(8)};letter-spacing:1px;margin-bottom:${f(8)}">B안</div>
+<div style="font-size:${f(13)};font-weight:900;color:#fff;line-height:1.1;margin-bottom:${f(9)}">새로운<br>방식</div>
+<div style="height:${f(3)};width:70%;background:rgba(255,255,255,.35);border-radius:2px;margin-bottom:${f(5)};margin-left:auto"></div>
+<div style="height:${f(3)};width:52%;background:rgba(255,255,255,.22);border-radius:2px;margin-bottom:${f(5)};margin-left:auto"></div>
+<div style="height:${f(3)};width:60%;background:rgba(255,255,255,.22);border-radius:2px;margin-left:auto"></div>
+</div>
+<div style="position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:${f(34)};height:${f(34)};border-radius:50%;background:#fff;box-shadow:0 ${f(4)} ${f(14)} rgba(0,0,0,.3);display:flex;align-items:center;justify-content:center;font-size:${f(10)};font-weight:900;color:#111">VS</div>`}},
+{id:141,name:"타임라인 로드맵",tag:"필수·프로세스",render(W,H,s){const f=n=>fx(n,s),p=n=>rx(n,s);return`
+<div style="position:absolute;inset:0;background:#fff"></div>
+<div style="position:absolute;top:${f(24)};left:${f(26)}">
+<div style="font-size:${f(4.5)};color:#6366f1;letter-spacing:2.5px;text-transform:uppercase;margin-bottom:${f(5)};font-weight:700">ROADMAP</div>
+<div style="font-size:${f(13)};font-weight:900;color:#111;line-height:1.1">추진 타임라인</div>
+</div>
+<div style="position:absolute;left:${f(30)};right:${f(30)};top:${f(104)};height:${f(2)};background:#e5e7eb"></div>
+<div style="position:absolute;left:${f(30)};top:${f(104)};height:${f(2)};width:38%;background:#6366f1"></div>
+<div style="position:absolute;left:${f(26)};right:${f(26)};top:${f(84)};display:flex;justify-content:space-between">
+<div style="width:${f(66)}"><div style="width:${f(11)};height:${f(11)};border-radius:50%;background:#6366f1;border:${f(2.5)}px solid #e0e7ff;margin-bottom:${f(14)};margin-left:${f(2)}"></div><div style="font-size:${f(4.5)};font-weight:800;color:#6366f1;margin-bottom:${f(3)}">1분기</div><div style="font-size:${f(5.5)};font-weight:800;color:#111;margin-bottom:${f(3)}">기획·설계</div><div style="height:${f(2.5)};width:80%;background:#e5e7eb;border-radius:2px"></div></div>
+<div style="width:${f(66)}"><div style="width:${f(11)};height:${f(11)};border-radius:50%;background:#6366f1;border:${f(2.5)}px solid #e0e7ff;margin-bottom:${f(14)};margin-left:${f(2)}"></div><div style="font-size:${f(4.5)};font-weight:800;color:#6366f1;margin-bottom:${f(3)}">2분기</div><div style="font-size:${f(5.5)};font-weight:800;color:#111;margin-bottom:${f(3)}">개발·구축</div><div style="height:${f(2.5)};width:70%;background:#e5e7eb;border-radius:2px"></div></div>
+<div style="width:${f(66)}"><div style="width:${f(11)};height:${f(11)};border-radius:50%;background:#fff;border:${f(2.5)}px solid #c7d2fe;margin-bottom:${f(14)};margin-left:${f(2)}"></div><div style="font-size:${f(4.5)};font-weight:800;color:#9ca3af;margin-bottom:${f(3)}">3분기</div><div style="font-size:${f(5.5)};font-weight:800;color:#374151;margin-bottom:${f(3)}">시범 운영</div><div style="height:${f(2.5)};width:76%;background:#e5e7eb;border-radius:2px"></div></div>
+<div style="width:${f(66)}"><div style="width:${f(11)};height:${f(11)};border-radius:50%;background:#fff;border:${f(2.5)}px solid #c7d2fe;margin-bottom:${f(14)};margin-left:${f(2)}"></div><div style="font-size:${f(4.5)};font-weight:800;color:#9ca3af;margin-bottom:${f(3)}">4분기</div><div style="font-size:${f(5.5)};font-weight:800;color:#374151;margin-bottom:${f(3)}">전면 확대</div><div style="height:${f(2.5)};width:64%;background:#e5e7eb;border-radius:2px"></div></div>
+</div>`}},
+{id:142,name:"도넛 차트 인포",tag:"데이터·차트",render(W,H,s){const f=n=>fx(n,s),p=n=>rx(n,s);return`
+<div style="position:absolute;inset:0;background:#0f172a"></div>
+<div style="position:absolute;left:${f(38)};top:50%;transform:translateY(-50%);width:${f(108)};height:${f(108)};border-radius:50%;background:conic-gradient(#38bdf8 0 62%,#818cf8 62% 84%,#f472b6 84% 100%);display:flex;align-items:center;justify-content:center">
+<div style="width:${f(70)};height:${f(70)};border-radius:50%;background:#0f172a;display:flex;flex-direction:column;align-items:center;justify-content:center">
+<div style="font-size:${f(15)};font-weight:900;color:#38bdf8;line-height:1">62%</div>
+<div style="font-size:${f(4)};color:rgba(255,255,255,.4);margin-top:${f(2)}">1위 응답</div>
+</div>
+</div>
+<div style="position:absolute;left:${f(172)};right:${f(26)};top:50%;transform:translateY(-50%)">
+<div style="font-size:${f(4.5)};color:rgba(255,255,255,.4);letter-spacing:2.5px;text-transform:uppercase;margin-bottom:${f(6)};font-weight:700">SURVEY RESULT</div>
+<div style="font-size:${f(13)};font-weight:900;color:#fff;line-height:1.1;margin-bottom:${f(11)}">설문 결과<br>한눈에</div>
+<div style="display:flex;align-items:center;gap:${f(6)};margin-bottom:${f(6)}"><div style="width:${f(7)};height:${f(7)};border-radius:${f(2)};background:#38bdf8"></div><div style="flex:1;font-size:${f(5.5)};color:rgba(255,255,255,.7)">매우 만족</div><div style="font-size:${f(5.5)};font-weight:800;color:#fff">62%</div></div>
+<div style="display:flex;align-items:center;gap:${f(6)};margin-bottom:${f(6)}"><div style="width:${f(7)};height:${f(7)};border-radius:${f(2)};background:#818cf8"></div><div style="flex:1;font-size:${f(5.5)};color:rgba(255,255,255,.7)">만족</div><div style="font-size:${f(5.5)};font-weight:800;color:#fff">22%</div></div>
+<div style="display:flex;align-items:center;gap:${f(6)}"><div style="width:${f(7)};height:${f(7)};border-radius:${f(2)};background:#f472b6"></div><div style="flex:1;font-size:${f(5.5)};color:rgba(255,255,255,.7)">보통 이하</div><div style="font-size:${f(5.5)};font-weight:800;color:#fff">16%</div></div>
+</div>`}},
+{id:143,name:"팀 프로필",tag:"필수·소개",render(W,H,s){const f=n=>fx(n,s),p=n=>rx(n,s);return`
+<div style="position:absolute;inset:0;background:#faf7f2"></div>
+<div style="position:absolute;top:${f(20)};left:${f(26)}">
+<div style="font-size:${f(4.5)};color:#b45309;letter-spacing:2.5px;text-transform:uppercase;margin-bottom:${f(5)};font-weight:700">OUR TEAM</div>
+<div style="font-size:${f(12)};font-weight:900;color:#292524;line-height:1.1">함께하는 사람들</div>
+</div>
+<div style="position:absolute;left:${f(26)};right:${f(26)};top:${f(66)};bottom:${f(20)};display:flex;gap:${f(10)}">
+<div style="flex:1;background:#fff;border-radius:${f(10)};box-shadow:0 ${f(3)} ${f(10)} rgba(120,90,60,.1);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:${f(10)}">
+<div style="width:${f(28)};height:${f(28)};border-radius:50%;background:linear-gradient(135deg,#f59e0b,#f97316);display:flex;align-items:center;justify-content:center;font-size:${f(11)};font-weight:900;color:#fff;margin-bottom:${f(6)}">김</div>
+<div style="font-size:${f(6.5)};font-weight:800;color:#292524;margin-bottom:${f(2.5)}">김하늘</div>
+<div style="font-size:${f(4.5)};color:#a8a29e;margin-bottom:${f(5)}">총괄 기획</div>
+<div style="height:${f(2.5)};width:60%;background:#f5f0e8;border-radius:2px"></div>
+</div>
+<div style="flex:1;background:#fff;border-radius:${f(10)};box-shadow:0 ${f(3)} ${f(10)} rgba(120,90,60,.1);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:${f(10)}">
+<div style="width:${f(28)};height:${f(28)};border-radius:50%;background:linear-gradient(135deg,#10b981,#14b8a6);display:flex;align-items:center;justify-content:center;font-size:${f(11)};font-weight:900;color:#fff;margin-bottom:${f(6)}">이</div>
+<div style="font-size:${f(6.5)};font-weight:800;color:#292524;margin-bottom:${f(2.5)}">이바다</div>
+<div style="font-size:${f(4.5)};color:#a8a29e;margin-bottom:${f(5)}">디자인</div>
+<div style="height:${f(2.5)};width:52%;background:#f5f0e8;border-radius:2px"></div>
+</div>
+<div style="flex:1;background:#fff;border-radius:${f(10)};box-shadow:0 ${f(3)} ${f(10)} rgba(120,90,60,.1);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:${f(10)}">
+<div style="width:${f(28)};height:${f(28)};border-radius:50%;background:linear-gradient(135deg,#6366f1,#8b5cf6);display:flex;align-items:center;justify-content:center;font-size:${f(11)};font-weight:900;color:#fff;margin-bottom:${f(6)}">박</div>
+<div style="font-size:${f(6.5)};font-weight:800;color:#292524;margin-bottom:${f(2.5)}">박도윤</div>
+<div style="font-size:${f(4.5)};color:#a8a29e;margin-bottom:${f(5)}">개발</div>
+<div style="height:${f(2.5)};width:56%;background:#f5f0e8;border-radius:2px"></div>
+</div>
+</div>`}},
+{id:144,name:"데이터 테이블",tag:"필수·표",render(W,H,s){const f=n=>fx(n,s),p=n=>rx(n,s);return`
+<div style="position:absolute;inset:0;background:#fff"></div>
+<div style="position:absolute;top:${f(20)};left:${f(26)};right:${f(26)};display:flex;justify-content:space-between;align-items:flex-end">
+<div><div style="font-size:${f(4.5)};color:#0f766e;letter-spacing:2.5px;text-transform:uppercase;margin-bottom:${f(5)};font-weight:700">DATA TABLE</div>
+<div style="font-size:${f(12)};font-weight:900;color:#111;line-height:1.1">학기별 운영 현황</div></div>
+<div style="font-size:${f(4.5)};color:#9ca3af">단위: 건</div>
+</div>
+<div style="position:absolute;left:${f(26)};right:${f(26)};top:${f(62)};border-radius:${f(8)};overflow:hidden;border:1px solid #e5e7eb">
+<div style="display:flex;background:#134e4a;padding:${f(6)} ${f(12)}"><div style="flex:1.4;font-size:${f(5.5)};font-weight:800;color:#fff">구분</div><div style="flex:1;font-size:${f(5.5)};font-weight:800;color:#fff;text-align:right">1학기</div><div style="flex:1;font-size:${f(5.5)};font-weight:800;color:#fff;text-align:right">2학기</div><div style="flex:1;font-size:${f(5.5)};font-weight:800;color:#5eead4;text-align:right">증감</div></div>
+<div style="display:flex;padding:${f(6)} ${f(12)};background:#fff;border-bottom:1px solid #f3f4f6"><div style="flex:1.4;font-size:${f(5.5)};font-weight:700;color:#374151">프로그램 운영</div><div style="flex:1;font-size:${f(5.5)};color:#6b7280;text-align:right">24</div><div style="flex:1;font-size:${f(5.5)};color:#6b7280;text-align:right">31</div><div style="flex:1;font-size:${f(5.5)};font-weight:800;color:#0f766e;text-align:right">+7</div></div>
+<div style="display:flex;padding:${f(6)} ${f(12)};background:#f9fafb;border-bottom:1px solid #f3f4f6"><div style="flex:1.4;font-size:${f(5.5)};font-weight:700;color:#374151">참여 학생</div><div style="flex:1;font-size:${f(5.5)};color:#6b7280;text-align:right">412</div><div style="flex:1;font-size:${f(5.5)};color:#6b7280;text-align:right">486</div><div style="flex:1;font-size:${f(5.5)};font-weight:800;color:#0f766e;text-align:right">+74</div></div>
+<div style="display:flex;padding:${f(6)} ${f(12)};background:#fff"><div style="flex:1.4;font-size:${f(5.5)};font-weight:700;color:#374151">만족도 평균</div><div style="flex:1;font-size:${f(5.5)};color:#6b7280;text-align:right">4.2</div><div style="flex:1;font-size:${f(5.5)};color:#6b7280;text-align:right">4.6</div><div style="flex:1;font-size:${f(5.5)};font-weight:800;color:#0f766e;text-align:right">+0.4</div></div>
+</div>
+<div style="position:absolute;left:${f(26)};bottom:${f(16)};font-size:${f(4.5)};color:#9ca3af">* 2학기 기준 전 항목 상승</div>`}},
+{id:145,name:"Q&A 슬라이드",tag:"필수·질의응답",render(W,H,s){const f=n=>fx(n,s),p=n=>rx(n,s);return`
+<div style="position:absolute;inset:0;background:linear-gradient(135deg,#1c1030,#2b1b4d)"></div>
+<div style="position:absolute;left:${f(18)};top:${f(-10)};font-size:${f(60)};font-weight:900;color:rgba(255,255,255,.05);line-height:1">?</div>
+<div style="position:absolute;right:${f(24)};bottom:${f(-16)};font-size:${f(74)};font-weight:900;color:rgba(255,255,255,.05);line-height:1">?</div>
+<div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center">
+<div style="font-size:${f(5)};color:rgba(255,255,255,.45);letter-spacing:4px;text-transform:uppercase;margin-bottom:${f(10)};font-weight:700">QUESTIONS & ANSWERS</div>
+<div style="font-size:${f(34)};font-weight:900;line-height:1;background:linear-gradient(90deg,#a78bfa,#f472b6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;padding-bottom:${f(4)}">Q&A</div>
+<div style="width:${f(34)};height:${f(2)};background:linear-gradient(90deg,#a78bfa,#f472b6);border-radius:2px;margin:${f(10)} 0"></div>
+<div style="font-size:${f(7)};color:rgba(255,255,255,.55)">무엇이든 물어보세요</div>
+</div>`}},
+{id:146,name:"엔딩 감사 슬라이드",tag:"필수·클로징",render(W,H,s){const f=n=>fx(n,s),p=n=>rx(n,s);return`
+<div style="position:absolute;inset:0;background:#0b0d12"></div>
+<div style="position:absolute;left:50%;top:${f(-40)};transform:translateX(-50%);width:${f(180)};height:${f(120)};border-radius:50%;background:rgba(99,102,241,.14);filter:blur(${f(28)}px)"></div>
+<div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center">
+<div style="width:${f(26)};height:${f(2)};background:rgba(255,255,255,.25);border-radius:2px;margin-bottom:${f(12)}"></div>
+<div style="font-size:${f(24)};font-weight:900;color:#fff;letter-spacing:-1px;margin-bottom:${f(8)}">감사합니다</div>
+<div style="font-size:${f(5.5)};color:rgba(255,255,255,.35);letter-spacing:5px;text-transform:uppercase;margin-bottom:${f(16)}">THANK YOU</div>
+<div style="display:flex;gap:${f(8)};align-items:center">
+<div style="font-size:${f(4.5)};color:rgba(255,255,255,.4);background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:100px;padding:${f(3)} ${f(9)}">kimju.zip</div>
+<div style="font-size:${f(4.5)};color:rgba(255,255,255,.4);background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:100px;padding:${f(3)} ${f(9)}">contact@school.kr</div>
+</div>
+</div>`}},
+{id:147,name:"도파민 컬러 팝",tag:"트렌드·비비드",render(W,H,s){const f=n=>fx(n,s),p=n=>rx(n,s);return`
+<div style="position:absolute;inset:0;background:#ffde59"></div>
+<div style="position:absolute;inset:${f(8)};border:${f(3)}px solid #111;border-radius:${f(10)}"></div>
+<div style="position:absolute;right:${f(34)};top:${f(-24)};width:${f(96)};height:${f(96)};border-radius:50%;background:#ff5db1;border:${f(3)}px solid #111"></div>
+<div style="position:absolute;right:${f(104)};bottom:${f(24)};width:${f(40)};height:${f(40)};background:#2f6bff;border:${f(3)}px solid #111;border-radius:${f(10)};transform:rotate(14deg)"></div>
+<div style="position:absolute;right:${f(38)};bottom:${f(36)};font-size:${f(30)};color:#04b34f;text-shadow:${f(2)}px ${f(2)}px 0 #111;transform:rotate(-8deg);line-height:1">★</div>
+<div style="position:absolute;left:${f(26)};top:50%;transform:translateY(-50%);width:${f(170)}">
+<div style="display:inline-block;font-size:${f(5)};font-weight:800;color:#fff;background:#111;padding:${f(3)} ${f(9)};border-radius:100px;letter-spacing:1.5px;margin-bottom:${f(9)}">DOPAMINE</div>
+<div style="font-size:${f(20)};font-weight:900;color:#111;line-height:1.02;letter-spacing:-1px;margin-bottom:${f(8)}">도파민<br>컬러 팝</div>
+<div style="font-size:${f(6.5)};font-weight:700;color:#111;background:#fff;border:${f(2)}px solid #111;display:inline-block;padding:${f(3)} ${f(8)};border-radius:${f(5)};box-shadow:${f(2.5)}px ${f(2.5)}px 0 #111">기분 좋아지는 비비드 컬러</div>
+</div>`}},
+);
+
+card.push(
+{id:138,name:"벤토 그리드 카드",tag:"트렌드·레이아웃",render(W,H,s){const f=n=>fx(n,s),p=n=>rx(n,s);return`
+<div style="position:absolute;inset:0;background:#f4f4f7"></div>
+<div style="position:absolute;top:${f(14)};left:${f(14)};right:${f(14)};bottom:${f(14)};display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1.3fr 1fr 1fr;gap:${f(8)}">
+<div style="grid-column:1/3;background:#17181c;border-radius:${f(12)};padding:${f(12)};display:flex;flex-direction:column;justify-content:space-between">
+<div style="font-size:${f(4.5)};color:rgba(255,255,255,.4);letter-spacing:2.5px;font-weight:700">BENTO</div>
+<div><div style="font-size:${f(13)};font-weight:900;color:#fff;line-height:1.1;margin-bottom:${f(5)}">벤토 그리드</div><div style="width:${f(24)};height:${f(2.5)};background:linear-gradient(90deg,#a78bfa,#6ee7b7);border-radius:2px"></div></div>
+</div>
+<div style="background:#e6e1fb;border-radius:${f(12)};padding:${f(10)};display:flex;flex-direction:column;justify-content:space-between"><div style="font-size:${f(13)};font-weight:900;color:#5b4a8a;line-height:1">24</div><div style="font-size:${f(4.5)};color:rgba(91,74,138,.6);font-weight:700">프로젝트</div></div>
+<div style="background:#d8f3e3;border-radius:${f(12)};padding:${f(10)};display:flex;flex-direction:column;justify-content:space-between"><div style="font-size:${f(13)};font-weight:900;color:#1f6b4a;line-height:1">89%</div><div style="font-size:${f(4.5)};color:rgba(31,107,74,.6);font-weight:700">만족도</div></div>
+<div style="background:#ffe4d1;border-radius:${f(12)};padding:${f(10)};display:flex;flex-direction:column;justify-content:space-between"><div style="font-size:${f(13)};font-weight:900;color:#b4530a;line-height:1">07</div><div style="font-size:${f(4.5)};color:rgba(180,83,10,.6);font-weight:700">진행 중</div></div>
+<div style="background:#d7ecfd;border-radius:${f(12)};padding:${f(10)};display:flex;flex-direction:column;justify-content:space-between">
+<div style="display:flex;gap:${f(3)};align-items:flex-end;height:${f(18)}"><div style="flex:1;height:50%;background:rgba(29,90,138,.35);border-radius:2px"></div><div style="flex:1;height:80%;background:#1d5a8a;border-radius:2px"></div><div style="flex:1;height:62%;background:rgba(29,90,138,.35);border-radius:2px"></div></div>
+<div style="font-size:${f(4.5)};color:rgba(29,90,138,.7);font-weight:700">주간 통계</div>
+</div>
+</div>`}},
+{id:139,name:"체크리스트 카드",tag:"필수·체크리스트",render(W,H,s){const f=n=>fx(n,s),p=n=>rx(n,s);return`
+<div style="position:absolute;inset:0;background:#fffdf7"></div>
+<div style="position:absolute;top:0;left:0;right:0;height:${f(4)};background:#10b981"></div>
+<div style="position:absolute;top:${f(20)};left:${f(18)};right:${f(18)}">
+<div style="font-size:${f(5)};color:#10b981;letter-spacing:2.5px;text-transform:uppercase;margin-bottom:${f(6)};font-weight:800">CHECKLIST</div>
+<div style="font-size:${f(14)};font-weight:900;color:#1c1917;line-height:1.15;margin-bottom:${f(13)}">오늘의<br>체크리스트</div>
+<div style="display:flex;align-items:center;gap:${f(7)};padding:${f(7)} ${f(8)};background:#f0fdf6;border-radius:${f(8)};margin-bottom:${f(6)}"><div style="width:${f(12)};height:${f(12)};border-radius:${f(4)};background:#10b981;display:flex;align-items:center;justify-content:center;font-size:${f(7)};color:#fff;font-weight:900">✓</div><div style="flex:1;height:${f(3)};background:#a7f3d0;border-radius:2px"></div></div>
+<div style="display:flex;align-items:center;gap:${f(7)};padding:${f(7)} ${f(8)};background:#f0fdf6;border-radius:${f(8)};margin-bottom:${f(6)}"><div style="width:${f(12)};height:${f(12)};border-radius:${f(4)};background:#10b981;display:flex;align-items:center;justify-content:center;font-size:${f(7)};color:#fff;font-weight:900">✓</div><div style="flex:1;height:${f(3)};background:#a7f3d0;border-radius:2px;max-width:75%"></div></div>
+<div style="display:flex;align-items:center;gap:${f(7)};padding:${f(7)} ${f(8)};background:#fafaf9;border-radius:${f(8)};margin-bottom:${f(6)}"><div style="width:${f(12)};height:${f(12)};border-radius:${f(4)};border:${f(1.5)}px solid #d6d3d1;background:#fff"></div><div style="flex:1;height:${f(3)};background:#e7e5e4;border-radius:2px;max-width:85%"></div></div>
+<div style="display:flex;align-items:center;gap:${f(7)};padding:${f(7)} ${f(8)};background:#fafaf9;border-radius:${f(8)}"><div style="width:${f(12)};height:${f(12)};border-radius:${f(4)};border:${f(1.5)}px solid #d6d3d1;background:#fff"></div><div style="flex:1;height:${f(3)};background:#e7e5e4;border-radius:2px;max-width:65%"></div></div>
+</div>
+<div style="position:absolute;bottom:${f(16)};left:${f(18)};right:${f(18)}">
+<div style="display:flex;justify-content:space-between;margin-bottom:${f(4)}"><div style="font-size:${f(4.5)};color:#78716c">진행률</div><div style="font-size:${f(4.5)};font-weight:800;color:#10b981">2/4 완료</div></div>
+<div style="height:${f(5)};background:#e7e5e4;border-radius:3px"><div style="width:50%;height:100%;background:#10b981;border-radius:3px"></div></div>
+</div>`}},
+{id:140,name:"VS 비교 카드",tag:"필수·비교",render(W,H,s){const f=n=>fx(n,s),p=n=>rx(n,s);return`
+<div style="position:absolute;inset:0;background:#2563eb"></div>
+<div style="position:absolute;left:0;right:0;bottom:0;height:50%;background:#e11d48"></div>
+<div style="position:absolute;top:${f(18)};left:${f(18)};right:${f(18)}">
+<div style="display:inline-block;font-size:${f(4.5)};font-weight:800;color:#fff;background:rgba(255,255,255,.18);border-radius:100px;padding:${f(2.5)} ${f(8)};margin-bottom:${f(7)}">A안</div>
+<div style="font-size:${f(13)};font-weight:900;color:#fff;line-height:1.1;margin-bottom:${f(7)}">기존 방식</div>
+<div style="height:${f(3)};width:70%;background:rgba(255,255,255,.35);border-radius:2px;margin-bottom:${f(4.5)}"></div>
+<div style="height:${f(3)};width:50%;background:rgba(255,255,255,.22);border-radius:2px"></div>
+</div>
+<div style="position:absolute;bottom:${f(18)};left:${f(18)};right:${f(18)};text-align:right">
+<div style="display:inline-block;font-size:${f(4.5)};font-weight:800;color:#fff;background:rgba(255,255,255,.18);border-radius:100px;padding:${f(2.5)} ${f(8)};margin-bottom:${f(7)}">B안</div>
+<div style="font-size:${f(13)};font-weight:900;color:#fff;line-height:1.1;margin-bottom:${f(7)}">새로운 방식</div>
+<div style="height:${f(3)};width:70%;background:rgba(255,255,255,.35);border-radius:2px;margin-bottom:${f(4.5)};margin-left:auto"></div>
+<div style="height:${f(3)};width:50%;background:rgba(255,255,255,.22);border-radius:2px;margin-left:auto"></div>
+</div>
+<div style="position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:${f(34)};height:${f(34)};border-radius:50%;background:#fff;box-shadow:0 ${f(4)} ${f(14)} rgba(0,0,0,.3);display:flex;align-items:center;justify-content:center;font-size:${f(10)};font-weight:900;color:#111">VS</div>`}},
+{id:141,name:"스텝 타임라인 카드",tag:"필수·프로세스",render(W,H,s){const f=n=>fx(n,s),p=n=>rx(n,s);return`
+<div style="position:absolute;inset:0;background:#fff"></div>
+<div style="position:absolute;top:${f(20)};left:${f(18)};right:${f(18)}">
+<div style="font-size:${f(5)};color:#6366f1;letter-spacing:2.5px;text-transform:uppercase;margin-bottom:${f(6)};font-weight:700">HOW TO</div>
+<div style="font-size:${f(14)};font-weight:900;color:#111;line-height:1.15">따라하기<br>3단계</div>
+</div>
+<div style="position:absolute;left:${f(28)};top:${f(96)};bottom:${f(30)};width:${f(2)};background:#e0e7ff"></div>
+<div style="position:absolute;left:${f(18)};right:${f(18)};top:${f(88)};display:flex;flex-direction:column;gap:${f(15)}">
+<div style="display:flex;gap:${f(10)}"><div style="width:${f(22)};height:${f(22)};border-radius:50%;background:#6366f1;display:flex;align-items:center;justify-content:center;font-size:${f(8)};font-weight:900;color:#fff;flex-shrink:0;position:relative;z-index:1">1</div><div style="flex:1;padding-top:${f(2)}"><div style="font-size:${f(6.5)};font-weight:800;color:#111;margin-bottom:${f(3)}">준비하기</div><div style="height:${f(2.5)};width:80%;background:#e5e7eb;border-radius:2px"></div></div></div>
+<div style="display:flex;gap:${f(10)}"><div style="width:${f(22)};height:${f(22)};border-radius:50%;background:#818cf8;display:flex;align-items:center;justify-content:center;font-size:${f(8)};font-weight:900;color:#fff;flex-shrink:0;position:relative;z-index:1">2</div><div style="flex:1;padding-top:${f(2)}"><div style="font-size:${f(6.5)};font-weight:800;color:#111;margin-bottom:${f(3)}">실행하기</div><div style="height:${f(2.5)};width:68%;background:#e5e7eb;border-radius:2px"></div></div></div>
+<div style="display:flex;gap:${f(10)}"><div style="width:${f(22)};height:${f(22)};border-radius:50%;background:#fff;border:${f(2)}px solid #c7d2fe;display:flex;align-items:center;justify-content:center;font-size:${f(8)};font-weight:900;color:#6366f1;flex-shrink:0;position:relative;z-index:1">3</div><div style="flex:1;padding-top:${f(2)}"><div style="font-size:${f(6.5)};font-weight:800;color:#374151;margin-bottom:${f(3)}">확인하기</div><div style="height:${f(2.5)};width:74%;background:#e5e7eb;border-radius:2px"></div></div></div>
+</div>`}},
+{id:142,name:"도넛 차트 카드",tag:"데이터·차트",render(W,H,s){const f=n=>fx(n,s),p=n=>rx(n,s);return`
+<div style="position:absolute;inset:0;background:#0f172a"></div>
+<div style="position:absolute;top:${f(18)};left:${f(18)};right:${f(18)}">
+<div style="font-size:${f(5)};color:rgba(255,255,255,.4);letter-spacing:2.5px;text-transform:uppercase;margin-bottom:${f(5)};font-weight:700">SURVEY</div>
+<div style="font-size:${f(13)};font-weight:900;color:#fff;line-height:1.15">설문 결과<br>한눈에</div>
+</div>
+<div style="position:absolute;top:${f(84)};left:50%;transform:translateX(-50%);width:${f(96)};height:${f(96)};border-radius:50%;background:conic-gradient(#38bdf8 0 62%,#818cf8 62% 84%,#f472b6 84% 100%);display:flex;align-items:center;justify-content:center">
+<div style="width:${f(62)};height:${f(62)};border-radius:50%;background:#0f172a;display:flex;flex-direction:column;align-items:center;justify-content:center">
+<div style="font-size:${f(13)};font-weight:900;color:#38bdf8;line-height:1">62%</div>
+<div style="font-size:${f(3.5)};color:rgba(255,255,255,.4);margin-top:${f(2)}">1위 응답</div>
+</div>
+</div>
+<div style="position:absolute;bottom:${f(18)};left:${f(20)};right:${f(20)}">
+<div style="display:flex;align-items:center;gap:${f(6)};margin-bottom:${f(5)}"><div style="width:${f(7)};height:${f(7)};border-radius:${f(2)};background:#38bdf8"></div><div style="flex:1;font-size:${f(5.5)};color:rgba(255,255,255,.7)">매우 만족</div><div style="font-size:${f(5.5)};font-weight:800;color:#fff">62%</div></div>
+<div style="display:flex;align-items:center;gap:${f(6)};margin-bottom:${f(5)}"><div style="width:${f(7)};height:${f(7)};border-radius:${f(2)};background:#818cf8"></div><div style="flex:1;font-size:${f(5.5)};color:rgba(255,255,255,.7)">만족</div><div style="font-size:${f(5.5)};font-weight:800;color:#fff">22%</div></div>
+<div style="display:flex;align-items:center;gap:${f(6)}"><div style="width:${f(7)};height:${f(7)};border-radius:${f(2)};background:#f472b6"></div><div style="flex:1;font-size:${f(5.5)};color:rgba(255,255,255,.7)">보통 이하</div><div style="font-size:${f(5.5)};font-weight:800;color:#fff">16%</div></div>
+</div>`}},
+{id:143,name:"Q&A 카드",tag:"필수·질의응답",render(W,H,s){const f=n=>fx(n,s),p=n=>rx(n,s);return`
+<div style="position:absolute;inset:0;background:linear-gradient(160deg,#1c1030,#2b1b4d)"></div>
+<div style="position:absolute;right:${f(10)};top:${f(-14)};font-size:${f(56)};font-weight:900;color:rgba(255,255,255,.05);line-height:1">?</div>
+<div style="position:absolute;top:${f(20)};left:${f(18)};right:${f(18)}">
+<div style="font-size:${f(5)};color:rgba(255,255,255,.45);letter-spacing:3px;text-transform:uppercase;margin-bottom:${f(6)};font-weight:700">Q&A</div>
+<div style="font-size:${f(13)};font-weight:900;color:#fff;line-height:1.15;margin-bottom:${f(14)}">자주 묻는<br>질문</div>
+<div style="background:rgba(255,255,255,.95);border-radius:${f(10)} ${f(10)} ${f(10)} ${f(3)};padding:${f(9)} ${f(10)};margin-bottom:${f(9)}">
+<div style="display:flex;gap:${f(6)};align-items:flex-start"><div style="font-size:${f(8)};font-weight:900;color:#7c3aed;line-height:1.1">Q.</div><div style="flex:1;padding-top:${f(1.5)}"><div style="height:${f(3)};width:88%;background:#e9e4f5;border-radius:2px;margin-bottom:${f(3.5)}"></div><div style="height:${f(3)};width:60%;background:#e9e4f5;border-radius:2px"></div></div></div>
+</div>
+<div style="background:linear-gradient(135deg,#7c3aed,#a855f7);border-radius:${f(10)} ${f(10)} ${f(3)} ${f(10)};padding:${f(9)} ${f(10)}">
+<div style="display:flex;gap:${f(6)};align-items:flex-start"><div style="font-size:${f(8)};font-weight:900;color:#fff;line-height:1.1">A.</div><div style="flex:1;padding-top:${f(1.5)}"><div style="height:${f(3)};width:90%;background:rgba(255,255,255,.4);border-radius:2px;margin-bottom:${f(3.5)}"></div><div style="height:${f(3)};width:72%;background:rgba(255,255,255,.4);border-radius:2px;margin-bottom:${f(3.5)}"></div><div style="height:${f(3)};width:52%;background:rgba(255,255,255,.25);border-radius:2px"></div></div></div>
+</div>
+</div>
+<div style="position:absolute;bottom:${f(14)};left:${f(18)};right:${f(18)};text-align:center;font-size:${f(4.5)};color:rgba(255,255,255,.3);letter-spacing:1.5px">궁금한 점은 댓글로!</div>`}},
+{id:144,name:"랭킹 TOP3 카드",tag:"필수·랭킹",render(W,H,s){const f=n=>fx(n,s),p=n=>rx(n,s);return`
+<div style="position:absolute;inset:0;background:#101322"></div>
+<div style="position:absolute;top:${f(20)};left:${f(18)};right:${f(18)}">
+<div style="font-size:${f(5)};color:#f59e0b;letter-spacing:2.5px;text-transform:uppercase;margin-bottom:${f(6)};font-weight:700">RANKING</div>
+<div style="font-size:${f(14)};font-weight:900;color:#fff;line-height:1.15;margin-bottom:${f(14)}">이번 달<br>TOP 3</div>
+<div style="background:rgba(245,158,11,.12);border:1px solid rgba(245,158,11,.4);border-radius:${f(10)};padding:${f(10)};display:flex;align-items:center;gap:${f(8)};margin-bottom:${f(8)}">
+<div style="width:${f(20)};height:${f(20)};border-radius:50%;background:linear-gradient(135deg,#fbbf24,#d97706);display:flex;align-items:center;justify-content:center;font-size:${f(8)};font-weight:900;color:#fff;flex-shrink:0">1</div>
+<div style="flex:1"><div style="height:${f(3.5)};width:80%;background:rgba(255,255,255,.4);border-radius:2px;margin-bottom:${f(3.5)}"></div><div style="height:${f(2.5)};width:50%;background:rgba(255,255,255,.15);border-radius:2px"></div></div>
+<div style="font-size:${f(7)};font-weight:900;color:#fbbf24">98점</div>
+</div>
+<div style="background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:${f(10)};padding:${f(8)} ${f(10)};display:flex;align-items:center;gap:${f(8)};margin-bottom:${f(8)}">
+<div style="width:${f(17)};height:${f(17)};border-radius:50%;background:linear-gradient(135deg,#d1d5db,#9ca3af);display:flex;align-items:center;justify-content:center;font-size:${f(7)};font-weight:900;color:#fff;flex-shrink:0">2</div>
+<div style="flex:1"><div style="height:${f(3)};width:70%;background:rgba(255,255,255,.3);border-radius:2px;margin-bottom:${f(3)}"></div><div style="height:${f(2.5)};width:44%;background:rgba(255,255,255,.12);border-radius:2px"></div></div>
+<div style="font-size:${f(6)};font-weight:800;color:#d1d5db">91점</div>
+</div>
+<div style="background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:${f(10)};padding:${f(8)} ${f(10)};display:flex;align-items:center;gap:${f(8)}">
+<div style="width:${f(17)};height:${f(17)};border-radius:50%;background:linear-gradient(135deg,#d97706,#92400e);display:flex;align-items:center;justify-content:center;font-size:${f(7)};font-weight:900;color:#fff;flex-shrink:0">3</div>
+<div style="flex:1"><div style="height:${f(3)};width:64%;background:rgba(255,255,255,.3);border-radius:2px;margin-bottom:${f(3)}"></div><div style="height:${f(2.5)};width:40%;background:rgba(255,255,255,.12);border-radius:2px"></div></div>
+<div style="font-size:${f(6)};font-weight:800;color:#d99e6b">87점</div>
+</div>
+</div>`}},
+{id:145,name:"팔로우 CTA 카드",tag:"필수·CTA",render(W,H,s){const f=n=>fx(n,s),p=n=>rx(n,s);return`
+<div style="position:absolute;inset:0;background:linear-gradient(135deg,#f09433,#dc2743,#bc1888)"></div>
+<div style="position:absolute;left:${f(-20)};bottom:${f(-25)};width:${f(110)};height:${f(110)};border-radius:50%;background:rgba(255,255,255,.12)"></div>
+<div style="position:absolute;right:${f(-15)};top:${f(-20)};width:${f(90)};height:${f(90)};border-radius:50%;background:rgba(255,255,255,.1)"></div>
+<div style="position:absolute;top:${f(30)};left:${f(20)};right:${f(20)};text-align:center">
+<div style="font-size:${f(5.5)};color:rgba(255,255,255,.75);letter-spacing:2.5px;text-transform:uppercase;margin-bottom:${f(8)};font-weight:700">FOLLOW US</div>
+<div style="font-size:${f(15)};font-weight:900;color:#fff;line-height:1.2">도움이<br>되셨나요?</div>
+</div>
+<div style="position:absolute;top:${f(112)};left:${f(22)};right:${f(22)};background:rgba(255,255,255,.96);border-radius:${f(13)};padding:${f(13)} ${f(12)};box-shadow:0 ${f(8)} ${f(22)} rgba(0,0,0,.25);text-align:center">
+<div style="display:flex;justify-content:center;gap:${f(9)};margin-bottom:${f(9)}">
+<div style="width:${f(24)};height:${f(24)};border-radius:50%;background:#fee2e8;display:flex;align-items:center;justify-content:center;font-size:${f(9)};color:#dc2743">♥</div>
+<div style="width:${f(24)};height:${f(24)};border-radius:50%;background:#fef3e2;display:flex;align-items:center;justify-content:center;font-size:${f(9)};color:#f09433">↗</div>
+<div style="width:${f(24)};height:${f(24)};border-radius:50%;background:#f3e8fa;display:flex;align-items:center;justify-content:center;font-size:${f(9)};color:#bc1888">＋</div>
+</div>
+<div style="font-size:${f(5.5)};font-weight:800;color:#292524;margin-bottom:${f(3)}">좋아요 · 공유 · 팔로우</div>
+<div style="font-size:${f(4.5)};color:#a8a29e">다음 카드가 더 알차게 돌아와요</div>
+</div>
+<div style="position:absolute;bottom:${f(16)};left:0;right:0;text-align:center;font-size:${f(5.5)};font-weight:800;color:rgba(255,255,255,.9);letter-spacing:.5px">@kimju.zip</div>`}},
+{id:146,name:"도파민 팝 카드",tag:"트렌드·비비드",render(W,H,s){const f=n=>fx(n,s),p=n=>rx(n,s);return`
+<div style="position:absolute;inset:0;background:#ffde59"></div>
+<div style="position:absolute;inset:${f(8)};border:${f(3)}px solid #111;border-radius:${f(12)}"></div>
+<div style="position:absolute;right:${f(-18)};top:${f(-18)};width:${f(80)};height:${f(80)};border-radius:50%;background:#ff5db1;border:${f(3)}px solid #111"></div>
+<div style="position:absolute;left:${f(20)};bottom:${f(58)};width:${f(32)};height:${f(32)};background:#2f6bff;border:${f(3)}px solid #111;border-radius:${f(9)};transform:rotate(14deg)"></div>
+<div style="position:absolute;right:${f(26)};bottom:${f(70)};font-size:${f(26)};color:#04b34f;text-shadow:${f(2)}px ${f(2)}px 0 #111;transform:rotate(-8deg);line-height:1">★</div>
+<div style="position:absolute;top:${f(30)};left:${f(20)};right:${f(20)}">
+<div style="display:inline-block;font-size:${f(5)};font-weight:800;color:#fff;background:#111;padding:${f(3)} ${f(9)};border-radius:100px;letter-spacing:1.5px;margin-bottom:${f(10)}">DOPAMINE</div>
+<div style="font-size:${f(19)};font-weight:900;color:#111;line-height:1.05;letter-spacing:-.5px">도파민<br>컬러<br>팝!</div>
+</div>
+<div style="position:absolute;bottom:${f(22)};left:${f(20)};right:${f(20)}">
+<div style="font-size:${f(6)};font-weight:700;color:#111;background:#fff;border:${f(2)}px solid #111;display:inline-block;padding:${f(3.5)} ${f(8)};border-radius:${f(6)};box-shadow:${f(2.5)}px ${f(2.5)}px 0 #111">기분 좋아지는 컬러</div>
+</div>`}},
+{id:147,name:"일정 캘린더 카드",tag:"필수·일정",render(W,H,s){const f=n=>fx(n,s),p=n=>rx(n,s);return`
+<div style="position:absolute;inset:0;background:#fff"></div>
+<div style="position:absolute;top:0;left:0;right:0;height:${f(46)};background:#1e3a8a;padding:${f(12)} ${f(18)} 0">
+<div style="font-size:${f(4.5)};color:rgba(255,255,255,.55);letter-spacing:2px;text-transform:uppercase;margin-bottom:${f(4)};font-weight:700">SCHEDULE</div>
+<div style="font-size:${f(11)};font-weight:900;color:#fff">3월 주요 일정</div>
+</div>
+<div style="position:absolute;top:${f(58)};left:${f(18)};right:${f(18)}">
+<div style="display:grid;grid-template-columns:repeat(7,1fr);gap:${f(3)};margin-bottom:${f(12)}">
+<div style="font-size:${f(4)};color:#dc2626;text-align:center;font-weight:700">일</div><div style="font-size:${f(4)};color:#9ca3af;text-align:center;font-weight:700">월</div><div style="font-size:${f(4)};color:#9ca3af;text-align:center;font-weight:700">화</div><div style="font-size:${f(4)};color:#9ca3af;text-align:center;font-weight:700">수</div><div style="font-size:${f(4)};color:#9ca3af;text-align:center;font-weight:700">목</div><div style="font-size:${f(4)};color:#9ca3af;text-align:center;font-weight:700">금</div><div style="font-size:${f(4)};color:#3b82f6;text-align:center;font-weight:700">토</div>
+<div style="height:${f(10)}"></div><div style="height:${f(10)}"></div><div style="font-size:${f(4.5)};color:#374151;text-align:center;padding-top:${f(2)}">1</div><div style="font-size:${f(4.5)};color:#fff;text-align:center;background:#1e3a8a;border-radius:${f(3)};padding-top:${f(2)};height:${f(10)};box-sizing:border-box;font-weight:800">2</div><div style="font-size:${f(4.5)};color:#374151;text-align:center;padding-top:${f(2)}">3</div><div style="font-size:${f(4.5)};color:#374151;text-align:center;padding-top:${f(2)}">4</div><div style="font-size:${f(4.5)};color:#3b82f6;text-align:center;padding-top:${f(2)}">5</div>
+<div style="font-size:${f(4.5)};color:#dc2626;text-align:center;padding-top:${f(2)}">6</div><div style="font-size:${f(4.5)};color:#374151;text-align:center;padding-top:${f(2)}">7</div><div style="font-size:${f(4.5)};color:#374151;text-align:center;padding-top:${f(2)}">8</div><div style="font-size:${f(4.5)};color:#374151;text-align:center;padding-top:${f(2)}">9</div><div style="font-size:${f(4.5)};color:#fff;text-align:center;background:#f59e0b;border-radius:${f(3)};padding-top:${f(2)};height:${f(10)};box-sizing:border-box;font-weight:800">10</div><div style="font-size:${f(4.5)};color:#374151;text-align:center;padding-top:${f(2)}">11</div><div style="font-size:${f(4.5)};color:#3b82f6;text-align:center;padding-top:${f(2)}">12</div>
+</div>
+<div style="display:flex;align-items:center;gap:${f(8)};padding:${f(7)} ${f(9)};background:#eff6ff;border-radius:${f(8)};margin-bottom:${f(7)}"><div style="font-size:${f(5)};font-weight:900;color:#1e3a8a;background:#dbeafe;border-radius:${f(5)};padding:${f(3)} ${f(6)}">3/2</div><div style="flex:1"><div style="font-size:${f(5.5)};font-weight:800;color:#1e293b;margin-bottom:${f(2.5)}">입학식·개학식</div><div style="height:${f(2.5)};width:55%;background:#dbeafe;border-radius:2px"></div></div></div>
+<div style="display:flex;align-items:center;gap:${f(8)};padding:${f(7)} ${f(9)};background:#fffbeb;border-radius:${f(8)}"><div style="font-size:${f(5)};font-weight:900;color:#92400e;background:#fef3c7;border-radius:${f(5)};padding:${f(3)} ${f(6)}">3/10</div><div style="flex:1"><div style="font-size:${f(5.5)};font-weight:800;color:#1e293b;margin-bottom:${f(2.5)}">학부모 총회</div><div style="height:${f(2.5)};width:48%;background:#fef3c7;border-radius:2px"></div></div></div>
+</div>`}},
+);
+
 function makeSlide(d,type,scale){
   const isPPT=type==='ppt';
   const bw=isPPT?360:196,bh=isPPT?202:261;
@@ -4554,7 +4864,7 @@ function buildGallery(designs,type,cid){
       document.getElementById('mpr').innerHTML=makeSlide(d,type,sc);
       document.getElementById('mnm').textContent=d.name;
       document.getElementById('mtg').textContent=d.tag;
-      document.getElementById('mmt').textContent=`#${d.id} · ${isPPT?'PPT 슬라이드':'카드뉴스'} 디자인`;
+      document.getElementById('mmt').textContent=`#${d.id} · ${isPPT?'웹슬라이드':'카드뉴스'} 디자인`;
       const pm=isPPT?PP:CP;
       document.getElementById('mprompt').textContent=pm[d.id]||d.name+' — '+d.tag;
       const cb=document.getElementById('mcopy');cb.textContent='복사';cb.style.background='rgba(255,255,255,.08)';cb.style.color='rgba(255,255,255,.6)';
@@ -4734,6 +5044,16 @@ const PP={
 135:'[배경] 연회색(#E0E5EC). [본문] 상단 볼록 헤더 바→좌측 원형 게이지(볼록 링+오목 안쪽+중앙 76%)→우측 볼록 스탯 카드 2개+오목 슬라이더(볼록 노브)+토글(켜짐). [특징] 뉴모피즘 위젯 대시보드.',
 136:'[배경] 하늘→핑크 파스텔 그라디언트. [장식] 우측 클레이 둥근 사각형(주황·안쪽 하이라이트+그림자·6도 회전)·그 옆 클레이 원(하늘). [제목] 좌측·진보라·대형 2줄. [본문] 위 CLAYMORPHISM 태그·아래 그라디언트 선·설명. [특징] 클레이모피즘 입체감.',
 137:'[배경] 순 검정+시안·핑크 글로우. [장식] 시안→보라→핑크 그라디언트 테두리 유리 패널(네온 글로우 그림자). [제목] 패널 중앙·흰색·대형 2줄. [본문] 위 NEON GLASS 태그(시안)·아래 시안→핑크 그라디언트 선·설명. [특징] 네온 엣지 글라스.',
+138:'[배경] 연회색(#F4F4F7). [본문] 벤토 그리드(3열 2행·둥근 타일): 좌측 세로로 긴 다크 타일(BENTO 태그+제목+그라디언트 선)·상단 파스텔 타일 2개(라벤더 24·민트 89%)·하단 와이드 하늘 타일(제목+미니 막대차트 5개). [특징] 벤토 그리드 레이아웃.',
+139:'[배경] 짙은 네이비(#101322). [제목] 좌측 "목차" 초대형·위 AGENDA 주황 태그·아래 주황 포인트 바. [본문] 우측 번호 리스트 4행(01~04·주황 번호 점점 연해짐·항목명+막대·구분선). [특징] 발표 목차 슬라이드.',
+140:'[배경] 좌 파랑(#2563EB)·우 빨강(#E11D48) 50/50 세로 분할. [장식] 중앙 흰 원형 VS 배지(그림자). [본문] 좌: A안 태그+제목 2줄+막대 3개(좌정렬)·우: B안 태그+제목 2줄+막대 3개(우정렬)·모두 흰색. [특징] 비교 슬라이드.',
+141:'[배경] 흰색. [제목] 좌상단·검정·대형 위 ROADMAP 보라 태그. [본문] 중단 수평 타임라인(회색 선+진행 구간 보라)·점 4개(완료 2개 채움·예정 2개 아웃라인)·각 점 아래 분기+단계명+막대. [특징] 로드맵 슬라이드.',
+142:'[배경] 짙은 슬레이트(#0F172A). [장식] 좌측 도넛 차트(conic-gradient 3색: 시안 62%·연보라 22%·핑크 16%)·중앙 구멍에 62% 대형. [본문] 우측 태그+제목 2줄+범례 3행(색 사각+항목+수치). [특징] 도넛 차트 인포그래픽.',
+143:'[배경] 크림(#FAF7F2). [제목] 좌상단·대형 위 OUR TEAM 갈색 태그. [본문] 흰 카드 3열(그림자): 각 그라디언트 원형 아바타(이니셜)+이름+역할+막대. [특징] 팀 소개 슬라이드.',
+144:'[배경] 흰색. [제목] 좌상단·대형 위 DATA TABLE 청록 태그·우측 단위 캡션. [본문] 테이블(둥근 테두리): 진청록 헤더 행(구분·1학기·2학기·증감)+데이터 3행(줄무늬 배경·증감 열은 청록 굵게 +표기). 하단 각주. [특징] 데이터 표 슬라이드.',
+145:'[배경] 짙은 보라 그라디언트. [장식] 좌상·우하 대형 반투명 ? 워터마크. [제목] 중앙 Q&A 초대형(보라→핑크 그라디언트 텍스트). [본문] 위 QUESTIONS & ANSWERS 태그·아래 그라디언트 선·"무엇이든 물어보세요". [특징] 질의응답 슬라이드.',
+146:'[배경] 순 검정(#0B0D12)+상단 보라 글로우. [제목] 완전 중앙 "감사합니다" 대형 흰색. [본문] 위 짧은 선·아래 THANK YOU 자간 넓게·최하단 연락처 알약 배지 2개. [특징] 발표 마무리 슬라이드.',
+147:'[배경] 비비드 옐로우(#FFDE59)+검정 굵은 테두리 프레임. [장식] 핫핑크 대형 원·파랑 회전 사각·초록 별(모두 검정 아웃라인+하드섀도). [제목] 좌측·검정·초대형 2줄 위 DOPAMINE 검정 알약 태그. [본문] 흰 박스+하드섀도 설명. [특징] 도파민 컬러 팝.',
 };
 const CP={
 1:'[배경] 흰+핑크. [장식] 상단 70px 로즈 그라디언트 헤더+원형 2개. [제목] 없음. [본문] 헤더 아래: 태그→제목 분홍 대형 2줄→수평선→텍스트 막대 3개(길이 단계별). 하단 구분선+더보기.',
@@ -4878,6 +5198,16 @@ const CP={
 135:'[배경] 연회색(#E0E5EC). [본문] 볼록 헤더 바→중앙 원형 게이지(볼록 링+오목 원+76%)→오목 슬라이더+볼록 노브→토글(켜짐). [특징] 뉴모피즘 위젯.',
 136:'[배경] 하늘→핑크 파스텔. [장식] 상단 클레이 둥근 사각(주황·회전)+클레이 원(하늘). [제목] 하단 중앙·진보라·대형 2줄. [본문] 위 CLAYMORPHISM 태그·아래 그라디언트 선. [특징] 클레이모피즘.',
 137:'[배경] 순 검정+시안·핑크 글로우. [장식] 시안→보라→핑크 그라디언트 테두리 패널(네온 글로우). [제목] 패널 중앙·흰색·대형 2줄. [본문] 위 NEON GLASS 태그·아래 그라디언트 선·설명. [특징] 네온 엣지 글라스.',
+138:'[배경] 연회색(#F4F4F7). [본문] 벤토 그리드(2열 3행): 상단 와이드 다크 타일(BENTO 태그+제목+그라디언트 선)·중단 파스텔 타일 2개(라벤더 24·민트 89%)·하단 피치 07 타일+하늘 미니차트 타일. [특징] 벤토 그리드 카드.',
+139:'[배경] 크림 화이트+상단 초록 4px 바. [제목] 상단·검정·대형 2줄 위 CHECKLIST 초록 태그. [본문] 체크 항목 4행(완료 2행: 초록 체크박스+연초록 배경·미완료 2행: 빈 박스+회색). 하단 진행률 바(2/4·50%). [특징] 체크리스트 카드.',
+140:'[배경] 상 파랑(#2563EB)·하 빨강(#E11D48) 50/50 수평 분할. [장식] 중앙 흰 원형 VS 배지. [본문] 상: A안 태그+제목+막대 2개(좌정렬)·하: B안 태그+제목+막대 2개(우정렬). [특징] 비교 카드.',
+141:'[배경] 흰색. [제목] 상단·검정·대형 2줄 위 HOW TO 보라 태그. [본문] 좌측 세로 연결선+번호 원 3개(1·2 채움 보라, 3 아웃라인)·각 단계명+막대. [특징] 3단계 프로세스 카드.',
+142:'[배경] 짙은 슬레이트(#0F172A). [제목] 상단·흰색·대형 2줄 위 SURVEY 태그. [본문] 중앙 도넛 차트(conic 3색·중앙 62% 대형)·하단 범례 3행(색 사각+항목+수치). [특징] 도넛 차트 카드.',
+143:'[배경] 짙은 보라 그라디언트+우상 ? 워터마크. [제목] 상단·흰색·대형 2줄 위 Q&A 태그. [본문] 흰 말풍선 카드(Q.+막대 2개)→보라 그라디언트 말풍선(A.+막대 3개)·말꼬리 방향 반대. 하단 캡션. [특징] 질문답변 카드.',
+144:'[배경] 짙은 네이비(#101322). [제목] 상단·흰색·대형 2줄 위 RANKING 주황 태그. [본문] 랭킹 3행: 1위(금색 원+주황 하이라이트 카드+98점 크게)·2위(은색)·3위(동색)·각 이름 막대+점수. [특징] 랭킹 TOP3 카드.',
+145:'[배경] 인스타 그라디언트(주황→빨강→마젠타)+반투명 원 2개. [제목] 상단 중앙·흰색·대형 2줄 위 FOLLOW US 태그. [본문] 흰 카드(그림자): 원형 아이콘 3개(♥·공유·팔로우)+안내 문구 2줄. 하단 @계정명. [특징] SNS 마무리 CTA 카드.',
+146:'[배경] 비비드 옐로우+검정 굵은 테두리. [장식] 핫핑크 원·파랑 회전 사각·초록 별(검정 아웃라인+하드섀도). [제목] 상단·검정·초대형 3줄 위 DOPAMINE 알약 태그. [본문] 하단 흰 박스+하드섀도 캡션. [특징] 도파민 팝 카드.',
+147:'[배경] 흰색+상단 네이비 헤더(SCHEDULE 태그+월 제목). [본문] 미니 달력 2주(요일 행·일 빨강/토 파랑·행사일 2개 컬러 채움)→일정 카드 2행(날짜 칩+행사명+막대·파랑/노랑 톤). [특징] 월간 일정 카드.',
 };
 
 function selectAll(el){
